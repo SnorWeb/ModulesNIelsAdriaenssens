@@ -1,0 +1,83 @@
+﻿<Window
+    x:Class="ModulesNIelsAdriaenssens.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ModulesNIelsAdriaenssens"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="250"
+    Height="450"
+    mc:Ignorable="d">
+    <StackPanel>
+        <!--  LABEL INPUT  -->
+        <Label Content="Total number of seconds" />
+        <!--  TEXTBOX INPUT  -->
+        <TextBox
+            x:Name="txtInputSeconds"
+            Margin="30,0,15,0"
+            Text="34822861" />
+        <!--  LABEL YEARS  -->
+        <Label Content="Number of years" />
+        <!--  TEXTBOX YEARS  -->
+        <TextBox
+            x:Name="txtYears"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--  LABEL MONTHS  -->
+        <Label Content="Number of months" />
+        <!--  TEXTBOX YEARS  -->
+        <TextBox
+            x:Name="txtMonths"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--  LABEL WEEKS  -->
+        <Label Content="Number of weeks" />
+        <!--  TEXTBOX WEEKS  -->
+        <TextBox
+            x:Name="txtWeeks"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--  LABEL DAYS  -->
+        <Label Content="Number of days" />
+        <!--  TEXTBOX DAYS  -->
+        <TextBox
+            x:Name="txtDays"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--  LABEL HOURS  -->
+        <Label Content="Number of hours" />
+        <!--  TEXTBOX YEARS  -->
+        <TextBox
+            x:Name="txtHours"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--  LABEL MINUTES  -->
+        <Label Content="Number of minutes" />
+        <!--  TEXTBOX MINUTES  -->
+        <TextBox
+            x:Name="txtminutes"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--  LABEL SECONDS  -->
+        <Label Content="Number of seconds" />
+        <!--  TEXTBOX YEARS  -->
+        <TextBox
+            x:Name="txtSeconds"
+            Margin="30,0,15,0"
+            Cursor="Arrow"
+            IsReadOnly="True" />
+        <!--BUTTON-->
+        <Button
+            x:Name="btnBereken"
+            Content="Bereken"
+            Margin="30,30,15,0"
+            Click="btnBereken_Click"/>
+    </StackPanel>
+</Window>
